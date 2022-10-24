@@ -1,0 +1,169 @@
+
+label define vlC0005300 1 "HISPANIC"  2 "BLACK"  3 "NON-BLACK, NON-HISPANIC" 
+label values C0005300 vlC0005300
+
+label define vlC0005400 1 "MALE"  2 "FEMALE" 
+label values C0005400 vlC0005400
+
+label define vlC0005700 1970 "1970 TO 1978: < before 1979"  1979 "1979"  1980 "1980"  1981 "1981"  1982 "1982"  1983 "1983"  1984 "1984"  1985 "1985"  1986 "1986"  1987 "1987"  1988 "1988"  1989 "1989"  1990 "1990"  1991 "1991"  1992 "1992"  1993 "1993"  1994 "1994"  1995 "1995"  1996 "1996"  1997 "1997"  1998 "1998"  1999 "1999"  2000 "2000"  2001 "2001"  2002 "2002"  2003 "2003"  2004 "2004"  2005 "2005"  2006 "2006"  2007 "2007"  2008 "2008"  2009 "2009"  2010 "2010"  2011 "2011"  2012 "2012"  2013 "2013"  2014 "2014"  2015 "2015"  2016 "2016"  2017 "2017"  2018 "2018"  2019 "2019" 
+label values C0005700 vlC0005700
+
+label define vlC0008047 1 "IN HOUSEHOLD OF MOTHER"  2 "WITH FATHER"  3 "WITH OTHER RELATIVE(S)"  4 "WITH FOSTER CARE"  5 "WITH ADOPTIVE PARENT(S)"  6 "IN LONG TERM CARE INSTITUTION"  7 "AWAY AT SCHOOL"  8 "DECEASED"  9 "PART TIME W/ MOTHER, PART TIME W/ FATHER"  10 "PART TIME W/ MOTHER, PART TIME W/ OTHER"  11 "OTHER"  12 "OWN INDEPENDENT RESIDENCE" 
+label values C0008047 vlC0008047
+
+label define vlC2845500 1 "Yes"  0 "No" 
+label values C2845500 vlC2845500
+
+label define vlC3032500 1 "Often"  2 "Sometimes"  3 "Hardly ever" 
+label values C3032500 vlC3032500
+
+label define vlC3032600 1 "Often"  2 "Sometimes"  3 "Hardly ever" 
+label values C3032600 vlC3032600
+
+label define vlC3032700 1 "Often"  2 "Sometimes"  3 "Hardly Ever" 
+label values C3032700 vlC3032700
+
+label define vlY1647500 1 "Strongly Disagree"  2 "Disagree"  3 "Agree"  4 "Strongly Agree" 
+label values Y1647500 vlY1647500
+
+label define vlY1647700 1 "Strongly Disagree"  2 "Disagree"  3 "Agree"  4 "Strongly Agree" 
+label values Y1647700 vlY1647700
+
+label define vlY1647800 1 "Strongly Disagree"  2 "Disagree"  3 "Agree"  4 "Strongly Agree" 
+label values Y1647800 vlY1647800
+
+label define vlY1648000 1 "Strongly Disagree"  2 "Disagree"  3 "Agree"  4 "Strongly Agree" 
+label values Y1648000 vlY1648000
+
+label define vlY2267000 506 "506" 
+label values Y2267000 vlY2267000
+
+label define vlY2837500 1 "1: MALE"  2 "2: FEMALE" 
+label values Y2837500 vlY2837500
+
+label define vlY2921600 0 "0"  1 "1 TO 999"  1000 "1000 TO 1999"  2000 "2000 TO 2999"  3000 "3000 TO 3999"  4000 "4000 TO 4999"  5000 "5000 TO 5999"  6000 "6000 TO 6999"  7000 "7000 TO 7999"  8000 "8000 TO 8999"  9000 "9000 TO 9999"  10000 "10000 TO 14999"  15000 "15000 TO 19999"  20000 "20000 TO 24999"  25000 "25000 TO 49999"  50000 "50000 TO 99999999: 50000+" 
+label values Y2921600 vlY2921600
+
+label define vlY2922200 0 "0"  1 "1 TO 999"  1000 "1000 TO 1999"  2000 "2000 TO 2999"  3000 "3000 TO 3999"  4000 "4000 TO 4999"  5000 "5000 TO 5999"  6000 "6000 TO 6999"  7000 "7000 TO 7999"  8000 "8000 TO 8999"  9000 "9000 TO 9999"  10000 "10000 TO 14999"  15000 "15000 TO 19999"  20000 "20000 TO 24999"  25000 "25000 TO 49999"  50000 "50000 TO 99999999: 50000+" 
+label values Y2922200 vlY2922200
+
+label define vlY2923000 0 "0"  1 "1 TO 999"  1000 "1000 TO 1999"  2000 "2000 TO 2999"  3000 "3000 TO 3999"  4000 "4000 TO 4999"  5000 "5000 TO 5999"  6000 "6000 TO 6999"  7000 "7000 TO 7999"  8000 "8000 TO 8999"  9000 "9000 TO 9999"  10000 "10000 TO 14999"  15000 "15000 TO 19999"  20000 "20000 TO 24999"  25000 "25000 TO 49999"  50000 "50000 TO 99999999: 50000+" 
+label values Y2923000 vlY2923000
+
+label define vlY2923400 0 "0"  1 "1 TO 999"  1000 "1000 TO 1999"  2000 "2000 TO 2999"  3000 "3000 TO 3999"  4000 "4000 TO 4999"  5000 "5000 TO 5999"  6000 "6000 TO 6999"  7000 "7000 TO 7999"  8000 "8000 TO 8999"  9000 "9000 TO 9999"  10000 "10000 TO 14999"  15000 "15000 TO 19999"  20000 "20000 TO 24999"  25000 "25000 TO 49999"  50000 "50000 TO 99999999: 50000+" 
+label values Y2923400 vlY2923400
+
+label define vlY2929300 1 "Yes"  0 "No" 
+label values Y2929300 vlY2929300
+
+label define vlY2929800 0 "0"  1 "1 TO 4999"  5000 "5000 TO 9999"  10000 "10000 TO 14999"  15000 "15000 TO 19999"  20000 "20000 TO 24999"  25000 "25000 TO 29999"  30000 "30000 TO 39999"  40000 "40000 TO 49999"  50000 "50000 TO 59999"  60000 "60000 TO 69999"  70000 "70000 TO 79999"  80000 "80000 TO 89999"  90000 "90000 TO 99999"  100000 "100000 TO 149999"  150000 "150000 TO 99999999: 150000+" 
+label values Y2929800 vlY2929800
+
+label define vlY2930100 1 "no difficulty at all"  2 "a little difficulty"  3 "some difficulty"  4 "quite a bit of difficulty"  5 "a great deal of difficulty" 
+label values Y2930100 vlY2930100
+
+label define vlY2930200 1 "more than enough money left over"  2 "some money left over"  3 "just enough to make ends meet"  4 "not enough to make ends meet" 
+label values Y2930200 vlY2930200
+
+label define vlY2930300 1 "1: CONDITION APPLIES"  0 "0: CONDITION DOES NOT APPLY" 
+label values Y2930300 vlY2930300
+
+label define vlY2930400 1 "YES"  0 "NO" 
+label values Y2930400 vlY2930400
+
+label define vlY2930500 1 "YES"  0 "NO"  2 "IF VOLUNTEERED, DO NOT HAVE" 
+label values Y2930500 vlY2930500
+
+label define vlY2930501 1 "YES"  0 "NO"  2 "IF VOLUNTEERED, DO NOT HAVE" 
+label values Y2930501 vlY2930501
+
+label define vlY2930502 1 "YES"  0 "NO"  2 "IF VOLUNTEERED, DO NOT HAVE" 
+label values Y2930502 vlY2930502
+
+label define vlY2930503 1 "YES"  0 "NO"  2 "IF VOLUNTEERED, DO NOT HAVE" 
+label values Y2930503 vlY2930503
+
+label define vlY2930504 1 "YES"  0 "NO"  2 "IF VOLUNTEERED, DO NOT HAVE" 
+label values Y2930504 vlY2930504
+
+label define vlY2930505 1 "YES"  0 "NO"  2 "IF VOLUNTEERED, DO NOT HAVE" 
+label values Y2930505 vlY2930505
+
+label define vlY2930600 1 "YES"  0 "NO" 
+label values Y2930600 vlY2930600
+
+label define vlY2930601 1 "YES"  0 "NO" 
+label values Y2930601 vlY2930601
+
+label define vlY2930602 1 "YES"  0 "NO" 
+label values Y2930602 vlY2930602
+
+label define vlY2930603 1 "YES"  0 "NO" 
+label values Y2930603 vlY2930603
+
+label define vlY2930604 1 "YES"  0 "NO" 
+label values Y2930604 vlY2930604
+
+label define vlY2966400 0 "0 TO 9: LESS THAN 10 YEARS OLD"  10 "10: 10 YEARS OLD"  11 "11: 11 YEARS OLD"  12 "12: 12 YEARS OLD"  13 "13: 13 YEARS OLD"  14 "14: 14 YEARS OLD"  15 "15: 15 YEARS OLD"  16 "16: 16 YEARS OLD"  17 "17: 17 YEARS OLD"  18 "18: 18 YEARS OLD"  19 "19: 19 YEARS OLD"  20 "20: 20 YEARS OLD"  21 "21: 21 YEARS OLD"  22 "22: 22 YEARS OLD"  23 "23: 23 YEARS OLD"  24 "24: 24 YEARS OLD"  25 "25: 25 YEARS OLD"  26 "26: 26 YEARS OLD"  27 "27: 27 YEARS OLD"  28 "28: 28 YEARS OLD"  29 "29: 29 YEARS OLD"  30 "30: 30 YEARS OLD"  31 "31: 31 YEARS OLD"  32 "32: 32 YEARS OLD"  33 "33: 33  YEARS OLD"  34 "34: 34  YEARS OLD"  35 "35: 35 YEARS OLD"  36 "36: 36 YEARS OLD"  37 "37: 37 YEARS OLD"  38 "38: 38 YEARS OLD"  39 "39: 39 YEARS OLD"  40 "40: 40 YEARS OLD"  41 "41: 41 YEARS OLD"  42 "42: 42 YEARS OLD" 
+label values Y2966400 vlY2966400
+
+label define vlY2966700 0 "NO DEGREE"  1 "GED"  2 "HS DIPLOMA"  3 "ASSOCIATE'S DEGREE"  4 "BACHELOR OF ARTS"  5 "BACHELOR OF SCIENCE"  6 "MASTER'S DEGREE"  7 "PHD"  8 "PROFESSIONAL DEGREE ( eg, MD, LLD, DDS)" 
+label values Y2966700 vlY2966700
+
+label define vlY2966900 0 "0: NEVER MARRIED"  1 "1: MARRIED"  2 "2: SEPARATED"  3 "3: DIVORCED"  6 "6: WIDOWED"  7 "7: LIVING WITH A PARTNER" 
+label values Y2966900 vlY2966900
+/* Crosswalk for Reference number & Question name
+ * Uncomment and edit this RENAME statement to rename variables for ease of use.
+ * This command does not guarantee uniqueness
+ */
+  /* *start* */
+/*
+  rename C0000100 CPUBID_XRND 
+  rename C0000200 MPUBID_XRND 
+  rename C0005300 CRACE_XRND 
+  rename C0005400 CSEX_XRND 
+  rename C0005700 CYRB_XRND 
+  rename C0008047 CRES2004_2004 
+  rename C2845500 CS_WORKFORPAY_2004   // CS-WORKFORPAY
+  rename C3032500 CSAS007A_2004 
+  rename C3032600 CSAS008A_2004 
+  rename C3032700 CSAS009A_2004 
+  rename Y1647500 Q16_5I_A_2004   // Q16-5I-A
+  rename Y1647700 Q16_5I_C_2004   // Q16-5I-C
+  rename Y1647800 Q16_5I_D_2004   // Q16-5I-D
+  rename Y1648000 Q16_5I_F_2004   // Q16-5I-F
+  rename Y2267000 VERSION_R28_XRND 
+  rename Y2837500 Q12_158E_2012   // Q12-158E
+  rename Y2921600 Q15_5_TOP_2012   // Q15-5-TOP
+  rename Y2922200 Q15_9_TOP_2012   // Q15-9-TOP
+  rename Y2923000 Q15_18_TOP_2012   // Q15-18-TOP
+  rename Y2923400 Q15_24_2012   // Q15-24
+  rename Y2929300 Q15_138A_2012   // Q15-138A
+  rename Y2929800 Q15_141_TOP_2012   // Q15-141-TOP
+  rename Y2930100 Q15_144_2012   // Q15-144
+  rename Y2930200 Q15_145_2012   // Q15-145
+  rename Y2930300 Q15_145A_2012   // Q15-145A
+  rename Y2930400 Q15_145B_2012   // Q15-145B
+  rename Y2930500 Q15_146_000001_2012   // Q15-146~000001
+  rename Y2930501 Q15_146_000002_2012   // Q15-146~000002
+  rename Y2930502 Q15_146_000003_2012   // Q15-146~000003
+  rename Y2930503 Q15_146_000004_2012   // Q15-146~000004
+  rename Y2930504 Q15_146_000005_2012   // Q15-146~000005
+  rename Y2930505 Q15_146_000006_2012   // Q15-146~000006
+  rename Y2930600 Q15_147_000001_2012   // Q15-147~000001
+  rename Y2930601 Q15_147_000002_2012   // Q15-147~000002
+  rename Y2930602 Q15_147_000003_2012   // Q15-147~000003
+  rename Y2930603 Q15_147_000004_2012   // Q15-147~000004
+  rename Y2930604 Q15_147_000005_2012   // Q15-147~000005
+  rename Y2966400 AGEINT2012_2012 
+  rename Y2966700 HSTDEGREE2012_2012 
+  rename Y2966900 MARSTAT2012_2012 
+*/
+
+  /* *end* */  
+/* To convert variable names to lower case use the TOLOWER command 
+ *      (type findit tolower and follow the links to install).
+ * TOLOWER VARLIST will change listed variables to lower case; 
+ *  TOLOWER without a specified variable list will convert all variables in the dataset to lower case
+ */
+/* tolower */

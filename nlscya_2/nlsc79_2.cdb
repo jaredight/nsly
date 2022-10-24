@@ -1,0 +1,1206 @@
+C00001.00    [CPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+ 
+NOTE: 
+The following child cases have been deleted from the Child db as of the current 
+survey round:
+1226902 - Determined to be a nonbio child; Mother Supplement reports in 2006 & 
+2008; child not assessed.
+864903 - Spurious duplicate child case; no assessment data.
+265404 - Determined to be a nonbio child; 2000-2006 assessment history deleted 
+from record.
+591304 - Determined to be a nonbio child; never assessed.
+ 
+   11545           1 TO 9999999: See Min & Max values below for range as of this
+                          release
+  -------
+   11545
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11545      MISSING(-7)       0
+ 
+Min:            201        Max:        1267501        Mean:           600618.24
+ 
+Lead In: None.
+Default Next Question: C00002.00
+--------------------------------------------------------------------------------
+C00002.00    [MPUBID]                                       Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             ID CODE OF MOTHER OF CHILD
+ 
+PUBLIC IDENTIFICATION CODE OF MOTHER OF CHILD
+ 
+UNIVERSE: All biological children of NLSY79 mothers, regardless of age.
+ 
+NOTE: SEE YOUTH REFERENCE NUMBER R(    1.)
+ 
+   11545           1 TO 12686: NLSY79 Public ID
+  -------
+   11545
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11545      MISSING(-7)       0
+ 
+Min:              2        Max:          12675        Mean:             6006.16
+ 
+Lead In: C00001.00[Default]
+Default Next Question: C00003.00
+--------------------------------------------------------------------------------
+C00053.00    [CRACE]                                        Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             RACE OF CHILD (MOTHER'S RACIAL/ETHNIC COHORT FROM SCREENER)
+ 
+RACE OF CHILD (MOTHER'S RACIAL/ETHNIC COHORT FROM SCREENER)
+ 
+NOTE: Child race/ethnicity is based on the report of the mother. See NLSY79 main
+Youth Reference Number R( 2147.)
+ 
+    2221       1 HISPANIC
+    3196       2 BLACK
+    6128       3 NON-BLACK, NON-HISPANIC
+  -------
+   11545
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11545      MISSING(-7)       0
+ 
+Min:              1        Max:              3        Mean:                2.34
+ 
+Lead In: C00052.00[Default]
+Default Next Question: C00054.00
+--------------------------------------------------------------------------------
+C00054.00    [CSEX]                                         Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             SEX OF CHILD
+ 
+SEX OF CHILD
+ 
+    5895       1 MALE
+    5648       2 FEMALE
+  -------
+   11543
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+Invalid Skip(-3)       2
+TOTAL =========>   11545      MISSING(-7)       0
+ 
+Min:              1        Max:              2        Mean:                1.49
+ 
+Lead In: C00053.00[Default]
+Default Next Question: C00055.00
+--------------------------------------------------------------------------------
+C00057.00    [CYRB]                                         Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             DATE OF BIRTH OF CHILD - YEAR
+ 
+DATE OF BIRTH OF CHILD - YEAR
+ 
+    1223        1970 TO 1978: < before 1979
+     528        1979
+     607        1980
+     714        1981
+     702        1982
+     716        1983
+     657        1984
+     676        1985
+     618        1986
+     621        1987
+     585        1988
+     629        1989
+     495        1990
+     424        1991
+     401        1992
+     349        1993
+     300        1994
+     245        1995
+     229        1996
+     215        1997
+     155        1998
+     128        1999
+     100        2000
+      81        2001
+      48        2002
+      34        2003
+      24        2004
+      15        2005
+      11        2006
+       4        2007
+       3        2008
+       3        2009
+       2        2010
+       2        2011
+       1        2014
+  -------
+   11545
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11545      MISSING(-7)       0
+ 
+Min:           1970        Max:           2014        Mean:              1986.1
+ 
+Lead In: C00055.00[Default]
+Default Next Question: C00057.01
+--------------------------------------------------------------------------------
+C00080.47    [CRES2004]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             USUAL RESIDENCE OF CHILD
+ 
+USUAL RESIDENCE OF CHILD
+ 
+    5505       1 IN HOUSEHOLD OF MOTHER
+     220       2 WITH FATHER
+     215       3 WITH OTHER RELATIVE(S)
+       5       4 WITH FOSTER CARE
+      43       5 WITH ADOPTIVE PARENT(S)
+      12       6 IN LONG TERM CARE INSTITUTION
+     141       7 AWAY AT SCHOOL
+     152       8 DECEASED
+       6       9 PART TIME W/ MOTHER, PART TIME W/ FATHER
+       6      10 PART TIME W/ MOTHER, PART TIME W/ OTHER
+     168      11 OTHER
+    1756      12 OWN INDEPENDENT RESIDENCE
+  -------
+    8229
+ 
+Refusal(-1)            7
+Don't Know(-2)        22
+Invalid Skip(-3)       6
+TOTAL =========>    8264      MISSING(-7)    3281
+ 
+Min:              1        Max:             12        Mean:                 3.9
+ 
+Lead In: C00047.47[Default]
+Default Next Question: C00111.37
+--------------------------------------------------------------------------------
+C28455.00    [CS-WORKFORPAY]                                Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             DOES CHILD DO ANY WORK FOR PAY SUCH AS BABYSITTING, YARD WORK
+ 
+Now I'm going to ask you some questions about work.
+ 
+Not counting jobs around the house, do you ever do any work for pay (including 
+babysitting, paper route, or yard work for neighbors)?
+ 
+     560       1 Yes   (Go To C28456.00)
+     753       0 No
+  -------
+    1313
+ 
+Refusal(-1)            3
+Don't Know(-2)         2
+TOTAL =========>    1318      MISSING(-7)   10227
+ 
+Min:              0        Max:              1        Mean:                 .43
+ 
+Lead In: C28454.00[Default] C28451.00[Default]
+Default Next Question: C28462.00
+--------------------------------------------------------------------------------
+C30325.00    [CSAS007A]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             CHILD SELF-ADMIN: HOW OFTEN MOTHER TALKS OVER IMPORTANT DECISIONS 
+             WITH CHILD
+ 
+How often does your mother talk over important decisions with you?
+ 
+     382       1 Often
+     343       2 Sometimes
+     103       3 Hardly ever
+  -------
+     828
+ 
+Refusal(-1)            7
+Don't Know(-2)        14
+TOTAL =========>     849      MISSING(-7)   10696
+ 
+Min:              1        Max:              3        Mean:                1.66
+ 
+Lead In: C30324.00[Default]
+Default Next Question: C30326.00
+--------------------------------------------------------------------------------
+C30326.00    [CSAS008A]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             CHILD SELF-ADMIN: HOW OFTEN MOTHER LISTENS TO CHILD'S SIDE OF 
+             ARGUMENT
+ 
+How often does your mother listen to your side of an argument?
+ 
+     343       1 Often
+     341       2 Sometimes
+     136       3 Hardly ever
+  -------
+     820
+ 
+Refusal(-1)           10
+Don't Know(-2)        19
+TOTAL =========>     849      MISSING(-7)   10696
+ 
+Min:              1        Max:              3        Mean:                1.75
+ 
+Lead In: C30325.00[Default]
+Default Next Question: C30327.00
+--------------------------------------------------------------------------------
+C30327.00    [CSAS009A]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             CHILD SELF-ADMIN: HOW OFTEN MOM KNOWS WHO CHILD IS WITH WHEN NOT 
+             HOME
+ 
+About how often does your mother know who you are with when you're not home?
+ 
+     637       1 Often
+     148       2 Sometimes
+      30       3 Hardly Ever
+  -------
+     815
+ 
+Refusal(-1)           11
+Don't Know(-2)        23
+TOTAL =========>     849      MISSING(-7)   10696
+ 
+Min:              1        Max:              3        Mean:                1.26
+ 
+Lead In: C30326.00[Default]
+Default Next Question: C30328.00
+--------------------------------------------------------------------------------
+Y16475.00    [Q16-5I-A]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             AGREEMENT WITH STATEMENT - I OFTEN GET IN A JAM BECAUSE I DO THINGS
+             WITHOUT THINKING
+ 
+I often get in a jam because I do things without thinking.
+ 
+UNIVERSE: All YAs
+ 
+     695       1 Strongly Disagree
+    2213       2 Disagree
+    1888       3 Agree
+     212       4 Strongly Agree
+  -------
+    5008
+ 
+Refusal(-1)            3
+Don't Know(-2)         8
+TOTAL =========>    5019      MISSING(-7)    6526
+ 
+Min:              1        Max:              4        Mean:                2.32
+ 
+Lead In: Y16474.03[Default]
+Default Next Question: Y16476.00
+--------------------------------------------------------------------------------
+Y16477.00    [Q16-5I-C]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             AGREEMENT WITH STATEMENT - I HAVE TO USE A LOT OF SELF-CONTROL TO 
+             KEEP OUT OF TROUBLE
+ 
+I have to use a lot of self-control to keep out of trouble.
+ 
+UNIVERSE: All YAs
+ 
+     890       1 Strongly Disagree
+    2461       2 Disagree
+    1280       3 Agree
+     375       4 Strongly Agree
+  -------
+    5006
+ 
+Refusal(-1)            3
+Don't Know(-2)        10
+TOTAL =========>    5019      MISSING(-7)    6526
+ 
+Min:              1        Max:              4        Mean:                2.23
+ 
+Lead In: Y16476.00[Default]
+Default Next Question: Y16478.00
+--------------------------------------------------------------------------------
+Y16478.00    [Q16-5I-D]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             AGREEMENT WITH STATEMENT - I ENJOY TAKING RISKS
+ 
+I enjoy taking risks.
+ 
+UNIVERSE: All YAs
+ 
+     343       1 Strongly Disagree
+    1937       2 Disagree
+    2426       3 Agree
+     295       4 Strongly Agree
+  -------
+    5001
+ 
+Refusal(-1)            5
+Don't Know(-2)        13
+TOTAL =========>    5019      MISSING(-7)    6526
+ 
+Min:              1        Max:              4        Mean:                2.53
+ 
+Lead In: Y16477.00[Default]
+Default Next Question: Y16479.00
+--------------------------------------------------------------------------------
+Y16480.00    [Q16-5I-F]                                     Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             AGREEMENT WITH STATEMENT - LIFE WITH NO DANGER IN IT WOULD BE TOO 
+             DULL FOR ME
+ 
+Life with no danger in it would be too dull for me.
+ 
+UNIVERSE: All YAs
+ 
+     334       1 Strongly Disagree
+    2307       2 Disagree
+    1969       3 Agree
+     379       4 Strongly Agree
+  -------
+    4989
+ 
+Refusal(-1)            3
+Don't Know(-2)        27
+TOTAL =========>    5019      MISSING(-7)    6526
+ 
+Min:              1        Max:              4        Mean:                2.48
+ 
+Lead In: Y16479.00[Default]
+Default Next Question: Y16481.00
+--------------------------------------------------------------------------------
+Y22670.00    [VERSION_R28]                                  Survey Year: XRND
+  PRIMARY VARIABLE
+
+ 
+             VERSION_R28 CHILD/YOUNG ADULT
+ 
+This variable identifies the release version of the current NLSY79 Child/Young 
+Adult data set, This information allows User Services to identify the release 
+version used by a researcher who is asking a question and to access past 
+versions of the data if necessary.
+ 
+  -------
+   11545
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   11545      MISSING(-7)       0
+ 
+Min:            512        Max:            512        Mean:                 512
+ 
+Lead In: Y12053.00[Default]
+Default Next Question: Y12054.00
+--------------------------------------------------------------------------------
+Y28375.00    [Q12-158E]                                     Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             MACHINE CHECK:  BRANCH ON GENDER OF R
+ 
+[Gender of Respondent]
+ 
+COMMENT: IS THE RESPONDENT A MALE OR FEMALE?
+ 
+    2840           1: MALE   (Go To Y28527.00)
+    1472           2: FEMALE
+  -------
+    4312
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    4312      MISSING(-7)    7233
+ 
+Min:              1        Max:              2        Mean:                1.34
+ 
+Lead In: Y28374.00[Default] Y28158.00[Default]  Y28370.00[0:0]
+Default Next Question: Y28376.00
+--------------------------------------------------------------------------------
+Y29216.00    [Q15-5-TOP]                                    Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES, SALARY, COMMISSIONS, OR TIPS FROM ALL JOBS
+             (TOP-CODED) IN 2011
+ 
+During 2011, how much did you receive from wages, salary, commissions, or tips 
+from all (other) jobs [-military or civilian-] before deductions for taxes or 
+anything else?
+ 
+UNIVERSE: All YAs
+ 
+NOTE: THIS VARIABLE HAS BEEN TOP-CODED.  THE VALUE OF 153150 REPRESENTS THE MEAN
+OF THE TOP VALUES.
+ 
+    1285           0
+     260           1 TO 999
+     141        1000 TO 1999
+     166        2000 TO 2999
+     140        3000 TO 3999
+      93        4000 TO 4999
+     121        5000 TO 5999
+      85        6000 TO 6999
+      64        7000 TO 7999
+      89        8000 TO 8999
+      53        9000 TO 9999
+     463       10000 TO 14999
+     358       15000 TO 19999
+     378       20000 TO 24999
+    1073       25000 TO 49999
+     408       50000 TO 99999999: 50000+
+  -------
+    5177
+ 
+Refusal(-1)           44
+Don't Know(-2)       582   (Go To Y29217.00)
+TOTAL =========>    5803      MISSING(-7)    5742
+ 
+Min:              0        Max:         153150        Mean:            17233.77
+ 
+Lead In: Y29214.00[Default]
+Default Next Question: Y29218.00
+--------------------------------------------------------------------------------
+Y29222.00    [Q15-9-TOP]                                    Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME (TOP-CODED) FROM OWN FARM OR BUSINESS AFTER EXPENSES 
+             IN 2011
+ 
+How much did you receive AFTER EXPENSES?
+ 
+UNIVERSE: YAs who had income from a farm or business
+ 
+NOTE: THIS VARIABLE HAS BEEN TOP-CODED.  THE VALUE OF 168333 REPRESENTS THE MEAN
+OF THE TOP VALUES.
+ 
+       8           0
+      42           1 TO 999
+      13        1000 TO 1999
+      20        2000 TO 2999
+       7        3000 TO 3999
+       3        4000 TO 4999
+       8        5000 TO 5999
+       2        6000 TO 6999
+       3        7000 TO 7999
+       3        8000 TO 8999
+       1        9000 TO 9999
+      15       10000 TO 14999
+       3       15000 TO 19999
+       3       20000 TO 24999
+      15       25000 TO 49999
+       5       50000 TO 99999999: 50000+
+  -------
+     151
+ 
+Refusal(-1)            3
+Don't Know(-2)        18
+TOTAL =========>     172      MISSING(-7)   11373
+ 
+Min:              0        Max:         168333        Mean:             10760.4
+ 
+Lead In: Y29219.00[1:1] Y29220.00[1:1]
+Default Next Question: Y29223.00
+--------------------------------------------------------------------------------
+Y29230.00    [Q15-18-TOP]                                   Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME OF SPOUSE/PARTNER FROM WAGES, SALARY, COMMISSIONS, OR 
+             TIPS FROM ALL JOBS (TOP-CODED) IN 2011
+ 
+During 2011, how much did your [spouse or partner] receive from wages, salary, 
+commissions, or tips from all jobs -- military or civilian -- before deductions 
+for taxes or anything else?
+ 
+UNIVERSE: YAs who have a current spouse/partner
+ 
+NOTE: THIS VARIABLE HAS BEEN TOP-CODED.  THE VALUE OF 135825 REPRESENTS THE MEAN
+OF THE TOP VALUES.
+ 
+     263           0
+       9           1 TO 999
+       7        1000 TO 1999
+      15        2000 TO 2999
+      18        3000 TO 3999
+       9        4000 TO 4999
+      22        5000 TO 5999
+      12        6000 TO 6999
+       7        7000 TO 7999
+      22        8000 TO 8999
+      12        9000 TO 9999
+     134       10000 TO 14999
+     111       15000 TO 19999
+     123       20000 TO 24999
+     501       25000 TO 49999
+     277       50000 TO 99999999: 50000+
+  -------
+    1542
+ 
+Refusal(-1)           25
+Don't Know(-2)       312
+TOTAL =========>    1879      MISSING(-7)    9666
+ 
+Min:              0        Max:         135825        Mean:             29068.7
+ 
+Lead In: Y29228.00[1:1]
+Default Next Question: Y29231.00
+--------------------------------------------------------------------------------
+Y29234.00    [Q15-24]                                       Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME OF SPOUSE/PARTNER FROM OWN FARM OR BUSINESS AFTER 
+             EXPENSES IN 2011
+ 
+How much did [he/she] receive AFTER EXPENSES?
+ 
+UNIVERSE: YAs who have a current spouse/partner who has received income from a 
+farm or business
+ 
+       6           0
+       4           1 TO 999
+       6        1000 TO 1999
+       2        2000 TO 2999
+       2        3000 TO 3999
+       3        5000 TO 5999
+       1        6000 TO 6999
+       1        7000 TO 7999
+       1        8000 TO 8999
+       5       10000 TO 14999
+       1       15000 TO 19999
+       4       20000 TO 24999
+       3       25000 TO 49999
+  -------
+      39
+ 
+Refusal(-1)            1
+Don't Know(-2)        11
+TOTAL =========>      51      MISSING(-7)   11494
+ 
+Min:              0        Max:          38000        Mean:             8099.49
+ 
+Lead In: Y29233.00[1:1]
+Default Next Question: Y29235.00
+--------------------------------------------------------------------------------
+Y29293.00    [Q15-138A]                                     Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             DOES R/SPOUSE/PARTNER OWE ANY MONEY ON CREDIT CARDS?
+ 
+Do [R or R's spouse or partner] owe any money on these credit cards?
+ 
+UNIVERSE: YAs who have credit cards they are responsible for
+ 
+    1261       1 Yes   (Go To Y29294.00)
+     617       0 No
+  -------
+    1878
+ 
+Refusal(-1)            0
+Don't Know(-2)        10
+TOTAL =========>    1888      MISSING(-7)    9657
+ 
+Min:              0        Max:              1        Mean:                 .67
+ 
+Lead In: Y29292.00[1:1]
+Default Next Question: Y29295.00
+--------------------------------------------------------------------------------
+Y29298.00    [Q15-141-TOP]                                  Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL FAMILY INCOME FROM ALL SOURCES (TOP-CODED) IN 2011
+ 
+During 2011, how much income did your family have from all sources? Please 
+indicate income from any full or part-time jobs, temporary or seasonal work and 
+services in the military, the military reserves or the National Guard, a farm, a
+business or professional partnership, Social Security, pensions, welfare, 
+interest, gifts or anything else.
+ 
+UNIVERSE: YAs, except those not living with any adults other than a 
+spouse/partner
+ 
+NOTE: THIS VARIABLE HAS BEEN TOP-CODED.  THE VALUE OF 324271 REPRESENTS THE MEAN
+OF THE TOP VALUES.
+ 
+      63           0
+      32           1 TO 4999
+      39        5000 TO 9999
+      65       10000 TO 14999
+      55       15000 TO 19999
+      69       20000 TO 24999
+      49       25000 TO 29999
+     108       30000 TO 39999
+     121       40000 TO 49999
+     105       50000 TO 59999
+     109       60000 TO 69999
+      93       70000 TO 79999
+      88       80000 TO 89999
+      52       90000 TO 99999
+     204      100000 TO 149999
+     216      150000 TO 99999999: 150000+
+  -------
+    1468
+ 
+Refusal(-1)           43
+Don't Know(-2)      1480   (Go To Y29299.00)
+TOTAL =========>    2991      MISSING(-7)    8554
+ 
+Min:              0        Max:         324271        Mean:            82015.68
+ 
+Lead In: Y29296.00[Default]
+Default Next Question: Y29300.00
+--------------------------------------------------------------------------------
+Y29301.00    [Q15-144]                                      Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             HOW MUCH DIFFICULTY R/HOUSEHOLD HAD PAYING BILLS DURING PAST 12 
+             MONTHS
+ 
+During the past 12 months, how much difficulty [did you/did your household] have
+paying bills? Would you say...
+ 
+UNIVERSE: All YAs
+ 
+    2293       1 no difficulty at all
+    1796       2 a little difficulty
+    1104       3 some difficulty
+     363       4 quite a bit of difficulty
+     203       5 a great deal of difficulty
+  -------
+    5759
+ 
+Refusal(-1)            6
+Don't Know(-2)        38
+TOTAL =========>    5803      MISSING(-7)    5742
+ 
+Min:              1        Max:              5        Mean:                2.03
+ 
+Lead In: Y29300.00[Default]
+Default Next Question: Y29302.00
+--------------------------------------------------------------------------------
+Y29302.00    [Q15-145]                                      Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             HOW MUCH MONEY R/HOUSEHOLD HAD LEFT OVER AT THE END OF EACH MONTH 
+             OVER PAST 12 MONTHS
+ 
+Thinking about the end of each month over the past 12 months, [did you/did your 
+household] generally end up with...
+ 
+UNIVERSE: All YAs
+ 
+     785       1 more than enough money left over
+    2518       2 some money left over
+    2033       3 just enough to make ends meet
+     365       4 not enough to make ends meet
+  -------
+    5701
+ 
+Refusal(-1)           16
+Don't Know(-2)        86
+TOTAL =========>    5803      MISSING(-7)    5742
+ 
+Min:              1        Max:              4        Mean:                2.35
+ 
+Lead In: Y29301.00[Default]
+Default Next Question: Y29303.00
+--------------------------------------------------------------------------------
+Y29303.00    [Q15-145A]                                     Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             MACHINE CHECK:  IS R UNEMANCIPATED AS DEFINED IN Q15-2?
+ 
+[flag indicating that R is under 18, living with at least one parent, not 
+married, not living with a partner, and has no children]==1
+ 
+COMMENT: Machine Check:  Is R unemancipated as defined in Q15-2?
+ 
+     529           1: CONDITION APPLIES   (Go To Y29322.00)
+    5274           0: CONDITION DOES NOT APPLY
+  -------
+    5803
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    5803      MISSING(-7)    5742
+ 
+Min:              0        Max:              1        Mean:                 .09
+ 
+Lead In: Y29302.00[Default]
+Default Next Question: Y29304.00
+--------------------------------------------------------------------------------
+Y29304.00    [Q15-145B]                                     Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             HAS R/SPOUSE/PARTNER SET ASIDE EMERGENCY FUNDS THAT WOULD COVER 3 
+             MONTHS OF EXPENSES?
+ 
+Have [R or R's spouse or partner] set aside emergency or rainy day funds that 
+would cover your expenses for 3 months, in case of sickness, job loss, economic 
+downturn, or other emergencies?
+ 
+UNIVERSE: YAs, except for unemancipated minors
+ 
+    1686       1 YES
+    3565       0 NO
+  -------
+    5251
+ 
+Refusal(-1)            6
+Don't Know(-2)        17
+TOTAL =========>    5274      MISSING(-7)    6271
+ 
+Min:              0        Max:              1        Mean:                 .32
+ 
+Lead In: Y29303.00[Default]
+Default Next Question: Y29305.00
+--------------------------------------------------------------------------------
+Y29305.00    [Q15-146~000001]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             DURING LAST 12 MONTHS R/SPOUSE/PARTNER HAS BEEN MORE THAN 60 DAYS 
+             LATE ON PAYMENTS - MORTGAGE OR RENT
+ 
+During the last 12 months, have [R or R's spouse or partner] been late more than
+60 days on any of the following types of payments?
+ 
+UNIVERSE: YAs, except for unemancipated minors
+ 
+RESPONSE CHOICE: "Your mortgage or rent"
+ 
+     208       1 YES
+    4685       0 NO
+     364       2 IF VOLUNTEERED, DO NOT HAVE
+  -------
+    5257
+ 
+Refusal(-1)            4
+Don't Know(-2)        13
+TOTAL =========>    5274      MISSING(-7)    6271
+ 
+Min:              0        Max:              2        Mean:                 .18
+ 
+Lead In: Y29304.00[Default]
+Default Next Question: Y29305.01
+--------------------------------------------------------------------------------
+Y29305.01    [Q15-146~000002]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             DURING LAST 12 MONTHS R/SPOUSE/PARTNER HAS BEEN MORE THAN 60 DAYS 
+             LATE ON PAYMENTS - UTILITY BILLS
+ 
+During the last 12 months, have [R or R's spouse or partner] been late more than
+60 days on any of the following types of payments?
+ 
+UNIVERSE: YAs, except for unemancipated minors
+ 
+RESPONSE CHOICE: "Your utility bills"
+ 
+     397       1 YES
+    4526       0 NO
+     334       2 IF VOLUNTEERED, DO NOT HAVE
+  -------
+    5257
+ 
+Refusal(-1)            4
+Don't Know(-2)        13
+TOTAL =========>    5274      MISSING(-7)    6271
+ 
+Min:              0        Max:              2        Mean:                  .2
+ 
+Lead In: Y29305.00[Default]
+Default Next Question: Y29305.02
+--------------------------------------------------------------------------------
+Y29305.02    [Q15-146~000003]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             DURING LAST 12 MONTHS R/SPOUSE/PARTNER HAS BEEN MORE THAN 60 DAYS 
+             LATE ON PAYMENTS - CREDIT CARD BILLS
+ 
+During the last 12 months, have [R or R's spouse or partner] been late more than
+60 days on any of the following types of payments?
+ 
+UNIVERSE: YAs, except for unemancipated minors
+ 
+RESPONSE CHOICE: "Your credit card bills"
+ 
+     212       1 YES
+    4393       0 NO
+     649       2 IF VOLUNTEERED, DO NOT HAVE
+  -------
+    5254
+ 
+Refusal(-1)            4
+Don't Know(-2)        16
+TOTAL =========>    5274      MISSING(-7)    6271
+ 
+Min:              0        Max:              2        Mean:                 .29
+ 
+Lead In: Y29305.01[Default]
+Default Next Question: Y29305.03
+--------------------------------------------------------------------------------
+Y29305.03    [Q15-146~000004]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             DURING LAST 12 MONTHS R/SPOUSE/PARTNER HAS BEEN MORE THAN 60 DAYS 
+             LATE ON PAYMENTS - CAR PAYMENTS
+ 
+During the last 12 months, have [R or R's spouse or partner] been late more than
+60 days on any of the following types of payments?
+ 
+UNIVERSE: YAs, except for unemancipated minors
+ 
+RESPONSE CHOICE: "Your car payment"
+ 
+     113       1 YES
+    4429       0 NO
+     715       2 IF VOLUNTEERED, DO NOT HAVE
+  -------
+    5257
+ 
+Refusal(-1)            4
+Don't Know(-2)        13
+TOTAL =========>    5274      MISSING(-7)    6271
+ 
+Min:              0        Max:              2        Mean:                 .29
+ 
+Lead In: Y29305.02[Default]
+Default Next Question: Y29305.04
+--------------------------------------------------------------------------------
+Y29305.04    [Q15-146~000005]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             DURING LAST 12 MONTHS R/SPOUSE/PARTNER HAS BEEN MORE THAN 60 DAYS 
+             LATE ON PAYMENTS - OTHER KINDS OF LOANS
+ 
+During the last 12 months, have [R or R's spouse or partner] been late more than
+60 days on any of the following types of payments?
+ 
+UNIVERSE: YAs, except for unemancipated minors
+ 
+RESPONSE CHOICE: "Other kinds of loans"
+ 
+     205       1 YES
+    4634       0 NO
+     423       2 IF VOLUNTEERED, DO NOT HAVE
+  -------
+    5262
+ 
+Refusal(-1)            4
+Don't Know(-2)         8
+TOTAL =========>    5274      MISSING(-7)    6271
+ 
+Min:              0        Max:              2        Mean:                  .2
+ 
+Lead In: Y29305.03[Default]
+Default Next Question: Y29305.05
+--------------------------------------------------------------------------------
+Y29305.05    [Q15-146~000006]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             DURING LAST 12 MONTHS R/SPOUSE/PARTNER HAS BEEN MORE THAN 60 DAYS 
+             LATE ON PAYMENTS - OTHER BILLS
+ 
+During the last 12 months, have [R or R's spouse or partner] been late more than
+60 days on any of the following types of payments?
+ 
+UNIVERSE: YAs, except for unemancipated minors
+ 
+RESPONSE CHOICE: "Other bills"
+ 
+     301       1 YES
+    4634       0 NO
+     324       2 IF VOLUNTEERED, DO NOT HAVE
+  -------
+    5259
+ 
+Refusal(-1)            4
+Don't Know(-2)        11
+TOTAL =========>    5274      MISSING(-7)    6271
+ 
+Min:              0        Max:              2        Mean:                 .18
+ 
+Lead In: Y29305.04[Default]
+Default Next Question: Y29306.00
+--------------------------------------------------------------------------------
+Y29306.00    [Q15-147~000001]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             DURING LAST 12 MONTHS HAS R/SPOUSE/PARTNER HAD AN ACCOUNT SENT TO A
+             COLLECTION AGENCY?
+ 
+During the last 12 months, have [R or R's spouse or partner] experienced any of 
+the following?
+ 
+UNIVERSE: YAs, except for unemancipated minors
+ 
+RESPONSE CHOICE: "Had an account sent to a collection agency?"
+ 
+     812       1 YES
+    4431       0 NO
+  -------
+    5243
+ 
+Refusal(-1)            3
+Don't Know(-2)        28
+TOTAL =========>    5274      MISSING(-7)    6271
+ 
+Min:              0        Max:              1        Mean:                 .15
+ 
+Lead In: Y29305.05[Default]
+Default Next Question: Y29306.01
+--------------------------------------------------------------------------------
+Y29306.01    [Q15-147~000002]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             DURING LAST 12 MONTHS HAS R/SPOUSE/PARTNER HAD SOMETHING 
+             REPOSSESSED?
+ 
+During the last 12 months, have [R or R's spouse or partner] experienced any of 
+the following?
+ 
+UNIVERSE: YAs, except for unemancipated minors
+ 
+RESPONSE CHOICE: "Had something repossessed?"
+ 
+      70       1 YES
+    5195       0 NO
+  -------
+    5265
+ 
+Refusal(-1)            2
+Don't Know(-2)         7
+TOTAL =========>    5274      MISSING(-7)    6271
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: Y29306.00[Default]
+Default Next Question: Y29306.02
+--------------------------------------------------------------------------------
+Y29306.02    [Q15-147~000003]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             DURING LAST 12 MONTHS HAS R/SPOUSE/PARTNER GOTTEN A LOAN FROM A 
+             PAYDAY OR OTHER STORE-FRONT LENDER?
+ 
+During the last 12 months, have [R or R's spouse or partner] experienced any of 
+the following?
+ 
+UNIVERSE: YAs, except for unemancipated minors
+ 
+RESPONSE CHOICE: "Gotten a loan from a payday or other store-front lender?"
+ 
+     277       1 YES
+    4983       0 NO
+  -------
+    5260
+ 
+Refusal(-1)            2
+Don't Know(-2)        12
+TOTAL =========>    5274      MISSING(-7)    6271
+ 
+Min:              0        Max:              1        Mean:                 .05
+ 
+Lead In: Y29306.01[Default]
+Default Next Question: Y29306.03
+--------------------------------------------------------------------------------
+Y29306.03    [Q15-147~000004]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             DURING LAST 12 MONTHS HAS R/SPOUSE/PARTNER FILED FOR BANKRUPTCY?
+ 
+During the last 12 months, have [R or R's spouse or partner] experienced any of 
+the following?
+ 
+UNIVERSE: YAs, except for unemancipated minors
+ 
+RESPONSE CHOICE: "Filed for bankruptcy?"
+ 
+      41       1 YES
+    5223       0 NO
+  -------
+    5264
+ 
+Refusal(-1)            2
+Don't Know(-2)         8
+TOTAL =========>    5274      MISSING(-7)    6271
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: Y29306.02[Default]
+Default Next Question: Y29306.04
+--------------------------------------------------------------------------------
+Y29306.04    [Q15-147~000005]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             DURING LAST 12 MONTHS HAS R/SPOUSE/PARTNER HAD FORECLOSURE OF A 
+             PROPERTY OWNED OR RENTING?
+ 
+During the last 12 months, have [R or R's spouse or partner] experienced any of 
+the following?
+ 
+UNIVERSE: YAs, except for unemancipated minors
+ 
+RESPONSE CHOICE: "Foreclosure of a property you owned or were renting?"
+ 
+      36       1 YES
+    5225       0 NO
+  -------
+    5261
+ 
+Refusal(-1)            2
+Don't Know(-2)        11
+TOTAL =========>    5274      MISSING(-7)    6271
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: Y29306.03[Default]
+Default Next Question: Y29307.00
+--------------------------------------------------------------------------------
+Y29664.00    [AGEINT2012]                                   Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             AGE OF YOUNG ADULT (IN YEARS) AT DATE OF INTERVIEW
+ 
+COMMENT: AGE OF YOUNG ADULT AT DATE OF INTERVIEW
+ 
+      22          14: 14 YEARS OLD
+     151          15: 15 YEARS OLD
+     176          16: 16 YEARS OLD
+     201          17: 17 YEARS OLD
+     212          18: 18 YEARS OLD
+     287          19: 19 YEARS OLD
+     322          20: 20 YEARS OLD
+     354          21: 21 YEARS OLD
+     347          22: 22 YEARS OLD
+     396          23: 23 YEARS OLD
+     378          24: 24 YEARS OLD
+     363          25: 25 YEARS OLD
+     389          26: 26 YEARS OLD
+     433          27: 27 YEARS OLD
+     397          28: 28 YEARS OLD
+     391          29: 29 YEARS OLD
+     334          30: 30 YEARS OLD
+      32          31: 31 YEARS OLD
+      57          32: 32 YEARS OLD
+     246          33: 33  YEARS OLD
+     172          34: 34  YEARS OLD
+      18          35: 35 YEARS OLD
+      17          36: 36 YEARS OLD
+      69          37: 37 YEARS OLD
+      39          38: 38 YEARS OLD
+       2          39: 39 YEARS OLD
+       2          41: 41 YEARS OLD
+  -------
+    5807
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    5807      MISSING(-7)    5738
+ 
+Min:             14        Max:             41        Mean:               24.68
+ 
+Lead In: Y29663.00[Default]
+Default Next Question: Y29665.00
+--------------------------------------------------------------------------------
+Y29667.00    [HSTDEGREE2012]                                Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST ACADEMIC DEGREE RECEIVED AS OF 2012
+ 
+Highest Academic Degree Received by Respondent as of the 2012 Interview
+ 
+    1046       0 NO DEGREE
+     522       1 GED
+    3054       2 HS DIPLOMA
+     380       3 ASSOCIATE'S DEGREE
+     291       4 BACHELOR OF ARTS
+     359       5 BACHELOR OF SCIENCE
+     128       6 MASTER'S DEGREE
+       5       7 PHD
+      22       8 PROFESSIONAL DEGREE ( eg, MD, LLD, DDS)
+  -------
+    5807
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    5807      MISSING(-7)    5738
+ 
+Min:              0        Max:              8        Mean:                2.02
+ 
+Lead In: Y29666.00[Default]
+Default Next Question: Y29668.00
+--------------------------------------------------------------------------------
+Y29669.00    [MARSTAT2012]                                  Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             OFFICIAL MARITAL STATUS
+ 
+COMMENT: Official Marital Status - Constructed
+ 
+    4448           0: NEVER MARRIED
+    1035           1: MARRIED
+     112           2: SEPARATED
+     204           3: DIVORCED
+       8           6: WIDOWED
+  -------
+    5807
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    5807      MISSING(-7)    5738
+ 
+Min:              0        Max:              6        Mean:                 .33
+ 
+Lead In: Y29668.00[Default]
+Default Next Question: Y29670.00
