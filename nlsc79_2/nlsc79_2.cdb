@@ -1,0 +1,1139 @@
+R00001.00    [CASEID]                                       Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             IDENTIFICATION CODE
+ 
+ORIGINAL QUESTION NAME: CASEID
+ 
+NOTE: THIS NUMBER WAS ASSIGNED ACCORDING TO THE RECORD NUMBER OF EACH RESPONDENT
+ON THE TAPE. THE FIRST RESPONDENT WAS ASSIGNED ID#1, THE SECOND WAS ASSIGNED 
+ID#2, ETC.
+ 
+ACTUAL NUMBER
+ 
+UNIVERSE: All
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:          12686        Mean:              6343.5
+ 
+Lead In: None.
+Default Next Question: R00001.49
+--------------------------------------------------------------------------------
+R01727.00    [Q15-1]                                        Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             INT REMARKS - RACE OF R
+ 
+ORIGINAL QUESTION NAME: S23Q03
+ 
+UNIVERSE: All
+ 
+    8736       1 WHITE
+    3163       2 BLACK
+     711       3 OTHER
+  -------
+   12610
+ 
+Refusal(-1)            2
+Don't Know(-2)         6
+Invalid Skip(-3)      68
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              3        Mean:                1.36
+ 
+Lead In: R01725.00[Default]
+Default Next Question: R01728.00
+--------------------------------------------------------------------------------
+R01736.00    [SAMPLE_ID]                                    Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             SAMPLE IDENTIFICATION CODE
+ 
+ORIGINAL QUESTION NAME: S24Q01
+ 
+UNIVERSE: Entire Sample
+ 
+    2236       1 CROSS MALE WHITE
+     203       2 CROSS MALE WH. POOR
+     346       3 CROSS MALE BLACK
+     218       4 CROSS MALE HISPANIC
+    2279       5 CROSS FEMALE WHITE
+     198       6 CROSS FEMALE WH POOR
+     405       7 CROSS FEMALE BLACK
+     226       8 CROSS FEMALE HISPANIC
+     742       9 SUP MALE WH POOR
+    1105      10 SUP MALE BLACK
+     729      11 SUP MALE HISPANIC
+     901      12 SUP FEM WH POOR
+    1067      13 SUP FEMALE BLACK
+     751      14 SUP FEMALE HISPANIC
+     609      15 MIL MALE WHITE
+     162      16 MIL MALE BLACK
+      53      17 MIL MALE HISPANIC
+     342      18 MIL FEMALE WHITE
+      89      19 MIL FEMALE BLACK
+      25      20 MIL FEMALE HISPANIC
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:             20        Mean:                8.17
+ 
+
+
+NOTE: MARCH 1, 1986  NORC
+ 
+SEX CODE CHANGED ON 42 CASES
+ 
+Lead In: R01735.19[Default]
+Default Next Question: R01737.00
+--------------------------------------------------------------------------------
+R02147.00    [SAMPLE_RACE]                                  Survey Year: 78SCRN
+  PRIMARY VARIABLE
+
+ 
+             R'S RACIAL/ETHNIC COHORT FROM SCREENER
+ 
+UNIVERSE: Entire Sample
+ 
+    2002       1 HISPANIC
+    3174       2 BLACK
+    7510       3 NON-BLACK, NON-HISPANIC
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              3        Mean:                2.43
+ 
+
+
+NOTE: AUGUST 26, 1980  DENNIS GREY
+ 
+DESCRIPTION:
+COHORT=3;
+IF R(1736.)=4 ! R(1736.)=8 ! R(1736.)=11 ! R(1736.)=14 THEN COHORT=1;
+IF R(1736.)=17 ! R(1736.)=20 THEN COHORT=1;
+IF R(1736.)=3 ! R(1736.)=7 ! R(1736.)=10 ! R(1736.)=13 THEN COHORT=2;
+IF R(1736.)=16 ! R(1736.)=19 THEN COHORT=2;
+R(2147.)=COHORT;
+ 
+Lead In: R02146.00[Default]
+Default Next Question: R02148.00
+--------------------------------------------------------------------------------
+R02148.00    [SAMPLE_SEX]                                   Survey Year: 1979
+  PRIMARY VARIABLE
+
+ 
+             SEX OF R
+ 
+UNIVERSE: Entire sample
+ 
+    6403       1 MALE
+    6283       2 FEMALE
+  -------
+   12686
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>   12686   VALID SKIP(-4)       0     NON-INTERVIEW(-5)       0
+ 
+Min:              1        Max:              2        Mean:                 1.5
+ 
+
+
+NOTE: AUGUST 26, 1980  DENNIS GREY
+MARCH 1, 1986  NORC
+ 
+DESCRIPTION:
+IF (R(1736.)>0 & R(1736.)<=4) ! (R(1736.)>=9 & R(1736.)<=11) THEN SEX=1;
+IF R(1736.)>=15 & R(1736.)<=17 THEN SEX=1;
+IF (R(1736.)>=5 & R(1736.)<=8) ! (R(1736.)>=12 & R(1736.)<=14) THEN SEX=
+IF R(1736.)>=18 & R(1736.)<=20 THEN SEX=2;
+R(2148.)=SEX;
+SEX CODE CHANGED ON 42 CASES
+ 
+Lead In: R02147.00[Default]
+Default Next Question: R02149.00
+--------------------------------------------------------------------------------
+R38948.10    [PEARLIN_SCORE]                                Survey Year: 1992
+  PRIMARY VARIABLE
+
+ 
+             PEARLIN MASTERY SCORE
+ 
+ORIGINAL QUESTION NAME: *CREATED
+ 
+PEARLIN MASTERY SCORE
+ 
+       0           0
+       0           1 TO 4
+       6           5 TO 9
+     104          10 TO 14
+    1606          15 TO 19
+    5069          20 TO 24
+    2153          25 TO 29
+  -------
+    8938
+ 
+Refusal(-1)           14
+Don't Know(-2)         5
+Invalid Skip(-3)      59
+TOTAL =========>    9016   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    3670
+ 
+Min:              7        Max:             28        Mean:               22.04
+ 
+Lead In: R38948.00[Default]
+Default Next Question: R38948.20
+--------------------------------------------------------------------------------
+R84175.00    [PS-1]                                         Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             R MISSED PAYMENT OR BEEN AT LEAST 2 MONTHS LATE IN LAST 5 YEARS?
+ 
+In the last 5 years, have you completely missed a payment or been at least 2 
+months late in paying any of your bills?
+ 
+    1587       1 Yes
+    6001       0 No
+  -------
+    7588
+ 
+Refusal(-1)           30
+Don't Know(-2)        27
+TOTAL =========>    7645   VALID SKIP(-4)      16     NON-INTERVIEW(-5)    5025
+ 
+Min:              0        Max:              1        Mean:                 .21
+ 
+Lead In: R84165.00[Default] R84169.00[Default] R84171.00[Default] 
+         R84167.00[Default] R84172.00[Default] R84173.00[Default] 
+         R84174.00[Default]  R84164.00[2:2] R84167.00[-2:-2]
+Default Next Question: R84176.00
+--------------------------------------------------------------------------------
+R84176.00    [PS-2]                                         Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             NUMBER OF CREDIT CARDS R OWES MAXIMUM AMT ON
+ 
+On how many credit cards do you [or] [Spouse/partner's name] owe the maximum 
+amount allowed by the credit card company?
+ 
+ 
+        ENTER NUMBER OF CARDS:
+ 
+    6732           0
+     734           1 TO 4
+      44           5 TO 9
+       4          10 TO 14
+       0          15 TO 19
+       2          20 TO 24
+       0          25 TO 29
+       0          30 TO 34
+       0          35 TO 39
+       0          40 TO 44
+       0          45 TO 49
+       1          50 TO 99999999: 50+
+  -------
+    7517
+ 
+Refusal(-1)           66
+Don't Know(-2)        62
+TOTAL =========>    7645   VALID SKIP(-4)      16     NON-INTERVIEW(-5)    5025
+ 
+Min:              0        Max:            700        Mean:                  .3
+ 
+Lead In: R84175.00[Default]
+Default Next Question: R84177.00
+--------------------------------------------------------------------------------
+R84177.00    [PS-3]                                         Survey Year: 2004
+  PRIMARY VARIABLE
+
+ 
+             R EVER DECLARED BANKRUPTCY
+ 
+Have you [or] [Spouse/partner's name] ever declared bankruptcy?
+ 
+    1066       1 Yes   (Go To R84178.00)
+    6543       0 No
+  -------
+    7609
+ 
+Refusal(-1)           31
+Don't Know(-2)         5
+TOTAL =========>    7645   VALID SKIP(-4)      16     NON-INTERVIEW(-5)    5025
+ 
+Min:              0        Max:              1        Mean:                 .14
+ 
+Lead In: R84176.00[Default]
+Default Next Question: R84182.00
+--------------------------------------------------------------------------------
+T32142.00    [Q3-10D]                                       Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             HIGHEST DEGREE EVER RECEIVED
+ 
+What is the name of the highest degree you have ever received?
+ 
+     956       0 None   (Go To T32144.00)
+    3808       1 High school diploma (or equivalent)
+     746       2 Associate/Junior College (AA)
+     389       3 Bachelor of Arts Degree (BA)
+     657       4 Bachelor of Science (BS)
+     424       5 Master's Degree (MA, MBA, MS, MSW)
+      39       6 Doctoral Degree (PhD)
+      43       7 Professional Degree (MD, LLD, DDS)
+     156       8 Other (SPECIFY)
+  -------
+    7218
+ 
+Refusal(-1)            0
+Don't Know(-2)         2
+TOTAL =========>    7220   VALID SKIP(-4)      80     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:              8        Mean:                 1.8
+ 
+Lead In: T32139.00[Default] T32134.00[Default] T32138.00[Default]  
+         T32132.00[1:8]
+Default Next Question: T32143.00
+--------------------------------------------------------------------------------
+T39425.00    [Q10-2]                                        Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             NUMBER OF BIOLOGICAL CHILDREN REPORTED
+ 
+RECCOUNT([Final biological child roster])
+ 
+COMMENT: Is there a child to check
+ 
+     587           0
+     604           1
+    1289           2
+     791           3
+     325           4
+     109           5
+      41           6
+      16           7
+       7           8
+       4           9
+       4          10 TO 999: 10+
+  -------
+    3777
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    3777   VALID SKIP(-4)    3523     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:             11        Mean:                2.09
+ 
+Lead In: T35754.00[Default] T35778.00[Default] T35782.00[Default] 
+         T35787.00[Default] T35454.00[Default]  T35769.00[0:0] T35782.00[1:1]
+Default Next Question: T39426.00
+--------------------------------------------------------------------------------
+T39769.00    [Q13-3_TRUNC]                                  Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM MILITARY SERVICE IN PAST CALENDAR YEAR (TRUNC)
+ 
+And how much total income did you receive during [PAST_CALENDAR_YEAR] from the 
+military before taxes and other deductions? Please include money received from 
+special pays, allowances, and bonuses.
+ 
+       2           0
+       1           1 TO 999
+       5        1000 TO 1999
+       1        2000 TO 2999
+       4        3000 TO 3999
+       0        4000 TO 4999
+       1        5000 TO 5999
+       2        6000 TO 6999
+       2        7000 TO 7999
+       2        8000 TO 8999
+       0        9000 TO 9999
+       9       10000 TO 14999
+      13       15000 TO 19999
+      13       20000 TO 24999
+      19       25000 TO 49999
+      14       50000 TO 99999999: 50000+
+  -------
+      88
+ 
+Refusal(-1)            0
+Don't Know(-2)         1   (Go To T39770.00)
+TOTAL =========>      89   VALID SKIP(-4)    7211     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:         111667        Mean:            26989.61
+ 
+Lead In: None.
+Default Next Question: T39781.00
+--------------------------------------------------------------------------------
+T39774.00    [Q13-5_TRUNC]                                  Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM WAGES AND SALARY IN PAST CALENDAR YEAR  (TRUNC)
+ 
+[During/(Not counting any money you received from your military service...) 
+During] [PAST_CALENDAR_YEAR], how much did you receive from wages, salary, 
+commissions, or tips from all (other) jobs, before deductions for taxes or 
+anything else?
+ 
+NOTE: topcoded item
+ 
+    1748           0
+      62           1 TO 999
+      46        1000 TO 1999
+      51        2000 TO 2999
+      39        3000 TO 3999
+      30        4000 TO 4999
+      43        5000 TO 5999
+      28        6000 TO 6999
+      46        7000 TO 7999
+      26        8000 TO 8999
+      42        9000 TO 9999
+     308       10000 TO 14999
+     294       15000 TO 19999
+     392       20000 TO 24999
+    1745       25000 TO 49999
+    2123       50000 TO 99999999: 50000+
+  -------
+    7023
+ 
+Refusal(-1)          119   (Go To T39777.00)
+Don't Know(-2)       146   (Go To T39775.00)
+Invalid Skip(-3)       5
+TOTAL =========>    7293   VALID SKIP(-4)       7     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:         343830        Mean:            41140.68
+ 
+Lead In: None.
+Default Next Question: T39781.00
+--------------------------------------------------------------------------------
+T39775.00    [Q13-5_SR000001]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             ESTIMATED INCOME FROM WAGES AND SALARY IN PAST CALENDAR YEAR (ORIG)
+ 
+Can you give me an approximate range for that amount?  (INTERVIEWER: IT IS 
+ACCEPTABLE FOR RESPONDENT TO REPORT UPPER AND LOWER RANGES VERY CLOSE TOGETHER, 
+OR THE SAME FIGURE FOR UPPER AND LOWER RANGE IF A SPECIFIC NUMBER.)
+ 
+ 
+        More than:
+ 
+       3           0
+       5           1 TO 999
+       3        1000 TO 1999
+       2        2000 TO 2999
+       3        3000 TO 3999
+       0        4000 TO 4999
+       6        5000 TO 5999
+       1        6000 TO 6999
+       1        7000 TO 7999
+       3        8000 TO 8999
+       0        9000 TO 9999
+       6       10000 TO 14999
+       6       15000 TO 19999
+       7       20000 TO 24999
+      14       25000 TO 49999
+       4       50000 TO 99999999: 50000+
+  -------
+      64
+ 
+Refusal(-1)            3
+Don't Know(-2)        83
+TOTAL =========>     150   VALID SKIP(-4)    7150     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:          80000        Mean:            17753.92
+ 
+Lead In: T39774.00[-2:-2]
+Default Next Question: T39776.00
+--------------------------------------------------------------------------------
+T39780.00    [Q13-5_UAB_C]                                  Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             INCOME FROM WAGES AND SALARY IN PAST CALENDAR YEAR MORE THAN $50K?
+ 
+Would it amount to $50,000 or more?
+ 
+      30       1 Yes
+      34       0 No
+  -------
+      64
+ 
+Refusal(-1)            3
+Don't Know(-2)         1
+TOTAL =========>      68   VALID SKIP(-4)    7232     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:              1        Mean:                 .47
+ 
+Lead In: T39778.00[1:1]
+Default Next Question: T39781.00
+--------------------------------------------------------------------------------
+T39781.00    [Q13-6]                                        Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             RECEIVED ANY INCOME FROM OWN FARM IN PAST CALENDAR YEAR?
+ 
+[During/Excluding any income you already have mentioned...) During] 
+[PAST_CALENDAR_YEAR], did you receive any money in income ...
+ 
+from your own farm?
+ 
+      69       1 Yes
+    7210       0 No
+  -------
+    7279
+ 
+Refusal(-1)           13
+Don't Know(-2)         1
+TOTAL =========>    7293   VALID SKIP(-4)       7     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:              1        Mean:                 .01
+ 
+Lead In: T39767.00[Default] T39769.00[Default] T39776.00[Default] 
+         T39774.00[Default] T39778.00[Default] T39779.00[Default] 
+         T39780.00[Default]
+Default Next Question: T39782.00
+--------------------------------------------------------------------------------
+T39794.00    [Q13-9_TRUNC]                                  Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM FARM OR BUSINESS IN PAST CALENDAR YEAR (TRUNC)
+ 
+How much did you receive after expenses [from your farms and businesses or 
+professional practices/from your businesses or professional practices]?
+ 
+NOTE: topcoded item
+ 
+      18           0
+      19           1 TO 999
+      20        1000 TO 1999
+      16        2000 TO 2999
+      10        3000 TO 3999
+       9        4000 TO 4999
+      15        5000 TO 5999
+       7        6000 TO 6999
+       3        7000 TO 7999
+       6        8000 TO 8999
+       1        9000 TO 9999
+      26       10000 TO 14999
+      20       15000 TO 19999
+      24       20000 TO 24999
+      48       25000 TO 49999
+      49       50000 TO 99999999: 50000+
+  -------
+     291
+ 
+Refusal(-1)            4   (Go To T39797.00)
+Don't Know(-2)        11   (Go To T39795.00)
+TOTAL =========>     306   VALID SKIP(-4)    6994     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:         166125        Mean:            25853.64
+ 
+Lead In: None.
+Default Next Question: T39800.00
+--------------------------------------------------------------------------------
+T39795.00    [Q13-9_SR000001]                               Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             ESTIMATED AMT MONEY RECEIVED FROM FARM OR BUSINESS AFTER EXPENSES
+ 
+Can you give me an approximate range for that amount?  (INTERVIEWER: IT IS 
+ACCEPTABLE FOR RESPONDENT TO REPORT UPPER AND LOWER RANGES VERY CLOSE TOGETHER, 
+OR THE SAME FIGURE FOR UPPER AND LOWER RANGE IF A SPECIFIC NUMBER.)
+ 
+ 
+        More than: $
+ 
+       0           0
+       0           1 TO 999
+       0        1000 TO 1999
+       0        2000 TO 2999
+       2        3000 TO 3999
+       0        4000 TO 4999
+       0        5000 TO 5999
+       0        6000 TO 6999
+       0        7000 TO 7999
+       0        8000 TO 8999
+       0        9000 TO 9999
+       0       10000 TO 14999
+       0       15000 TO 19999
+       1       20000 TO 24999
+       0       25000 TO 49999
+       0       50000 TO 99999999: 50000+
+  -------
+       3
+ 
+Refusal(-1)            0
+Don't Know(-2)         8
+TOTAL =========>      11   VALID SKIP(-4)    7289     NON-INTERVIEW(-5)    5386
+ 
+Min:           3000        Max:          20000        Mean:             8666.67
+ 
+Lead In: T39794.00[-2:-2]
+Default Next Question: T39796.00
+--------------------------------------------------------------------------------
+T39799.00    [Q13-9_UAB_C]                                  Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM FOR FARM OR BUSINESS IN PAST CALENDAR YEAR MORE 
+             THAN $40K?
+ 
+Would it amount to $40,000 or more?
+ 
+       4       1 Yes
+       0       0 No
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       4   VALID SKIP(-4)    7296     NON-INTERVIEW(-5)    5386
+ 
+Min:              1        Max:              1        Mean:                   1
+ 
+Lead In: T39797.00[1:1]
+Default Next Question: T39800.00
+--------------------------------------------------------------------------------
+T39870.00    [Q13-16_TRUNC]                                 Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME OF SPOUSE/PARTNER FROM MILITARY SERVICE IN 2011 
+             (TRUNC)
+ 
+And how much total income did [Spouse/partner's name] receive during 
+[PAST_CALENDAR_YEAR] from the military before taxes and other deductions? Please
+include money received from special pays, allowances, and bonuses.
+ 
+NOTE: topcoded item
+ 
+       1           0
+       0           1 TO 999
+       0        1000 TO 1999
+       1        2000 TO 2999
+       3        3000 TO 3999
+       1        4000 TO 4999
+       1        5000 TO 5999
+       1        6000 TO 6999
+       1        7000 TO 7999
+       2        8000 TO 8999
+       1        9000 TO 9999
+       4       10000 TO 14999
+       8       15000 TO 19999
+       3       20000 TO 24999
+      10       25000 TO 49999
+      12       50000 TO 99999999: 50000+
+  -------
+      49
+ 
+Refusal(-1)            2   (Go To T39873.00)
+Don't Know(-2)         2   (Go To T39871.00)
+TOTAL =========>      53   VALID SKIP(-4)    7247     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:         131500        Mean:            33889.22
+ 
+Lead In: None.
+Default Next Question: T39885.00
+--------------------------------------------------------------------------------
+T39876.00    [Q13-18_TRUNC]                                 Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME OF SPOUSE FROM WAGES AND SALARY IN PAST CALENDAR YEAR 
+             (TRUNC)
+ 
+[(Not counting any money (spouse/partner) received from (his/her) military 
+service...) During] [PAST_CALENDAR_YEAR], how much did [Spouse/partner's name] 
+receive from wages, salary, commissions, or tips from all (other) jobs, before 
+deductions for taxes or anything else?
+ 
+NOTE: topcoded item
+ 
+     790           0
+      11           1 TO 999
+      11        1000 TO 1999
+      14        2000 TO 2999
+      18        3000 TO 3999
+      14        4000 TO 4999
+      23        5000 TO 5999
+      25        6000 TO 6999
+      17        7000 TO 7999
+      24        8000 TO 8999
+      18        9000 TO 9999
+     130       10000 TO 14999
+     134       15000 TO 19999
+     192       20000 TO 24999
+     917       25000 TO 49999
+    1197       50000 TO 99999999: 50000+
+  -------
+    3535
+ 
+Refusal(-1)          125   (Go To T39881.00)
+Don't Know(-2)       159   (Go To T39885.00)
+Invalid Skip(-3)       2
+TOTAL =========>    3821   VALID SKIP(-4)    3479     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:         272295        Mean:            43440.26
+ 
+Lead In: None.
+Default Next Question: T39885.00
+--------------------------------------------------------------------------------
+T39899.00    [Q13-24_TRUNC]                                 Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME OF SPOUSE FROM FARM OR BUSINESS IN PAST CALENDAR YEAR 
+             (TRUNC)
+ 
+How much did [S/HE] receive after expenses from [his/her] [from his/her farms 
+and businesses or professional practices/from his/her farms]?
+ 
+NOTE: topcoded item
+ 
+       4           0
+       2           1 TO 999
+       5        1000 TO 1999
+       5        2000 TO 2999
+       1        3000 TO 3999
+       1        4000 TO 4999
+       3        5000 TO 5999
+       1        6000 TO 6999
+       0        7000 TO 7999
+       1        8000 TO 8999
+       1        9000 TO 9999
+       6       10000 TO 14999
+       5       15000 TO 19999
+       4       20000 TO 24999
+      21       25000 TO 49999
+      17       50000 TO 99999999: 50000+
+  -------
+      77
+ 
+Refusal(-1)            0
+Don't Know(-2)        12   (Go To T39900.00)
+TOTAL =========>      89   VALID SKIP(-4)    7211     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:         137500        Mean:            29211.68
+ 
+Lead In: None.
+Default Next Question: T39905.00
+--------------------------------------------------------------------------------
+T40198.00    [Q13-75_TRUNC]                                 Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME RECEIVED BY R/SPAR FROM OTHER SOURCES IN PAST CALENDAR
+             YEAR (TRUNC)
+ 
+How much altogether?
+ 
+       0           0
+     648           1 TO 999
+     103        1000 TO 1999
+      86        2000 TO 2999
+      52        3000 TO 3999
+      22        4000 TO 4999
+      57        5000 TO 5999
+      25        6000 TO 6999
+      19        7000 TO 7999
+      24        8000 TO 8999
+      10        9000 TO 9999
+      95       10000 TO 14999
+      43       15000 TO 19999
+      61       20000 TO 24999
+      83       25000 TO 49999
+      71       50000 TO 99999999: 50000+
+  -------
+    1399
+ 
+Refusal(-1)            6   (Go To T40202.00)
+Don't Know(-2)       115   (Go To T40199.00)
+Invalid Skip(-3)       1
+TOTAL =========>    1521   VALID SKIP(-4)    5779     NON-INTERVIEW(-5)    5386
+ 
+Min:              1        Max:         192675        Mean:             9680.85
+ 
+Lead In: None.
+Default Next Question: T40205.00
+--------------------------------------------------------------------------------
+T40217.00    [Q13-79]                                       Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             INT CHECK 2012 - DOES R LIVE WITH OTHER FAMILY BESIDES 
+             SPOUSE/CHILDREN?
+ 
+([other relatives in hshld, not spouse/children?] >= 1)
+ 
+COMMENT: Check flag if R lives with any relatives other than R's spouse and 
+children
+ 
+    6310           0: 0  CONDITION DOES NOT APPLY
+     983           1: 1  CONDITION APPLIES   (Go To T40218.00)
+  -------
+    7293
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7293   VALID SKIP(-4)       7     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:              1        Mean:                 .13
+ 
+Lead In: T40205.00[Default] T40209.00[Default] T40210.00[Default] 
+         T40211.00[Default] T40213.00[Default] T40214.00[Default] 
+         T40215.00[Default] T40216.00[Default]
+Default Next Question: T40237.00
+--------------------------------------------------------------------------------
+T40223.00    [Q13-92]                                       Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM ALL WELFARE SOURCES FOR OTHER FAMILY IN 2011
+ 
+... during [PAST_CALENDAR_YEAR] - before taxes and other deductions?
+ 
+       9           0
+      30           1 TO 4999
+      36        5000 TO 9999
+      24       10000 TO 14999
+      12       15000 TO 19999
+       6       20000 TO 24999
+       3       25000 TO 29999
+       2       30000 TO 39999
+       2       40000 TO 49999
+       1       50000 TO 59999
+       0       60000 TO 69999
+       1       70000 TO 79999
+       1       80000 TO 89999
+       0       90000 TO 99999
+       2      100000 TO 149999
+       0      150000 TO 99999999: 150000+
+  -------
+     129
+ 
+Refusal(-1)            2   (Go To T40226.00)
+Don't Know(-2)        91   (Go To T40224.00)
+TOTAL =========>     222   VALID SKIP(-4)    7078     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:         100000        Mean:            12446.01
+ 
+Lead In: T40222.00[1:1]
+Default Next Question: T40229.00
+--------------------------------------------------------------------------------
+T40224.00    [Q13-92_SR000001]                              Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             EST TOTAL INCOME FROM ALL WELFARE SOURCES FOR OTHER FAMILY IN 2011
+ 
+Can you give me an approximate range for that amount?  (INTERVIEWER: IT IS 
+ACCEPTABLE FOR RESPONDENT TO REPORT UPPER AND LOWER RANGES VERY CLOSE TOGETHER, 
+OR THE SAME FIGURE FOR UPPER AND LOWER RANGE IF A SPECIFIC NUMBER.)
+ 
+ 
+        More than:
+ 
+       1           0
+       8           1 TO 4999
+       3        5000 TO 9999
+       2       10000 TO 14999
+       1       15000 TO 19999
+       2       20000 TO 24999
+       0       25000 TO 29999
+       0       30000 TO 39999
+       0       40000 TO 49999
+       0       50000 TO 59999
+       0       60000 TO 69999
+       0       70000 TO 79999
+       0       80000 TO 89999
+       0       90000 TO 99999
+       0      100000 TO 149999
+       0      150000 TO 99999999: 150000+
+  -------
+      17
+ 
+Refusal(-1)            1
+Don't Know(-2)        73
+TOTAL =========>      91   VALID SKIP(-4)    7209     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:          24000        Mean:             7022.76
+ 
+Lead In: T40223.00[-2:-2]
+Default Next Question: T40225.00
+--------------------------------------------------------------------------------
+T40228.00    [Q13-92_UAB_C]                                 Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM ALL WELFARE SOURCES FOR OTHER FAMILY IN 2011 MORE
+             THAN $30K?
+ 
+Would it amount to $30,000 or more?
+ 
+       3       1 Yes
+      17       0 No
+  -------
+      20
+ 
+Refusal(-1)            0
+Don't Know(-2)         6
+TOTAL =========>      26   VALID SKIP(-4)    7274     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:              1        Mean:                 .15
+ 
+Lead In: T40226.00[1:1]
+Default Next Question: T40229.00
+--------------------------------------------------------------------------------
+T40231.00    [Q13-92C_TRUNC]                                Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM ALL REGULAR SOURCES FOR OTHER FAMILY (TRUNC)
+ 
+...from all sources mentioned above during [PAST_CALENDAR_YEAR] - before taxes 
+and other deductions?
+ 
+       4           0
+      47           1 TO 4999
+      51        5000 TO 9999
+      50       10000 TO 14999
+      35       15000 TO 19999
+      33       20000 TO 24999
+      20       25000 TO 29999
+      22       30000 TO 39999
+      23       40000 TO 49999
+      12       50000 TO 59999
+       4       60000 TO 69999
+       6       70000 TO 79999
+       5       80000 TO 89999
+       1       90000 TO 99999
+      10      100000 TO 149999
+       0      150000 TO 99999999: 150000+
+  -------
+     323
+ 
+Refusal(-1)            8   (Go To T40234.00)
+Don't Know(-2)       275   (Go To T40232.00)
+TOTAL =========>     606   VALID SKIP(-4)    6694     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:         141571        Mean:            23644.91
+ 
+Lead In: None.
+Default Next Question: T40237.00
+--------------------------------------------------------------------------------
+T40232.00    [Q13-92C_SR000001]                             Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             EST TOTAL INCOME FROM ALL REGULAR SOURCES FOR OTHER FAMILY
+ 
+Can you give me an approximate range for that amount?  (INTERVIEWER: IT IS 
+ACCEPTABLE FOR RESPONDENT TO REPORT UPPER AND LOWER RANGES VERY CLOSE TOGETHER, 
+OR THE SAME FIGURE FOR UPPER AND LOWER RANGE IF A SPECIFIC NUMBER.)
+ 
+ 
+        More than: $
+ 
+       4           0
+      17           1 TO 4999
+       4        5000 TO 9999
+       9       10000 TO 14999
+       3       15000 TO 19999
+       6       20000 TO 24999
+       2       25000 TO 29999
+       5       30000 TO 39999
+       1       40000 TO 49999
+       3       50000 TO 59999
+       1       60000 TO 69999
+       0       70000 TO 79999
+       1       80000 TO 89999
+       0       90000 TO 99999
+       1      100000 TO 149999
+       0      150000 TO 99999999: 150000+
+  -------
+      57
+ 
+Refusal(-1)            2
+Don't Know(-2)       216
+TOTAL =========>     275   VALID SKIP(-4)    7025     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:         100000        Mean:            16512.28
+ 
+Lead In: T40231.00[-2:-2]
+Default Next Question: T40233.00
+--------------------------------------------------------------------------------
+T40236.00    [Q13-92C_UAB_C]                                Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL INCOME FROM ALL REGULAR SOURCES FOR OTHER FAMILY IN 2011 MORE
+             THAN $30K?
+ 
+Would it amount to $30,000 or more?
+ 
+      23       1 Yes
+      51       0 No
+  -------
+      74
+ 
+Refusal(-1)            0
+Don't Know(-2)        26
+TOTAL =========>     100   VALID SKIP(-4)    7200     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:              1        Mean:                 .31
+ 
+Lead In: T40234.00[1:1]
+Default Next Question: T40237.00
+--------------------------------------------------------------------------------
+T41123.00    [TNFI_TRUNC]                                   Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             TOTAL NET FAMILY INCOME IN PAST CALENDAR YEAR *KEY* (TRUNCATED)
+ 
+COMMENT: Total Net Family Income in 2011
+ 
+NOTE: FOR VARIABLE CREATION, SEE APPENDIX 2: TOTAL NET FAMILY INCOME TRUNCATED 
+VALUES ARE EQUAL TO THE AVERAGE VALUE OF THE TOP 2% OF RESPONDENTS WHO ARE U.S. 
+RESIDENTS.  IF THE NUMBER OF TRUNCATED VALUES EXCEEDS THAT WHICH WOULD HAVE BEEN
+TRUNCATED AT THE TRADITIONAL TRUNCATION LEVEL OF 100,001 FOR THIS ITEM, VALUES 
+OVER THAT TRADITIONAL TRUNCATION LEVEL ARE AVERAGED.  OVERSEAS RESPONDENTS WHOSE
+DOLLAR INCOME COULD NOT BE DETERMINED ARE CODED -3.
+ 
+ACTUAL DOLLARS
+ 
+     200           0
+      35           1 TO 999
+      43        1000 TO 1999
+      81        2000 TO 2999
+      30        3000 TO 3999
+      28        4000 TO 4999
+      34        5000 TO 5999
+      23        6000 TO 6999
+      42        7000 TO 7999
+      81        8000 TO 8999
+      77        9000 TO 9999
+     353       10000 TO 14999
+     282       15000 TO 19999
+     301       20000 TO 24999
+    1290       25000 TO 49999
+    3406       50000 TO 99999999: 50000+
+  -------
+    6306
+ 
+Refusal(-1)          215
+Don't Know(-2)       779
+TOTAL =========>    7300   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5386
+ 
+Min:              0        Max:         497763        Mean:            75703.09
+ 
+Lead In: T41122.00[Default]
+Default Next Question: T41125.00
+--------------------------------------------------------------------------------
+T41126.01    [PAST_CALENDAR_YEAR]                           Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             PAST CALENDAR YEAR
+ 
+The past calendar year read to the respondent.
+ 
+       0        2010
+    5140        2011
+    2160        2012
+       0        2013
+       0        2014
+  -------
+    7300
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7300   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5386
+ 
+Min:           2011        Max:           2012        Mean:              2011.3
+ 
+Lead In: T41125.00[Default]
+Default Next Question: T41127.00
+--------------------------------------------------------------------------------
+T41132.00    [AGEATINT]                                     Survey Year: 2012
+  PRIMARY VARIABLE
+
+ 
+             AGE OF R AT INTERVIEW DATE
+ 
+COMMENT: Age at interview date
+ 
+       0          40
+       0          41
+       0          42
+       0          43
+       0          44
+       0          45
+       0          46
+      57          47
+     845          48
+    1016          49
+    1028          50
+    1048          51
+     975          52
+     825          53
+     780          54
+     668          55
+      58          56
+  -------
+    7300
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>    7300   VALID SKIP(-4)       0     NON-INTERVIEW(-5)    5386
+ 
+Min:             47        Max:             56        Mean:               51.29
+ 
+Lead In: T41131.00[Default]
+Default Next Question: T41132.01
+--------------------------------------------------------------------------------
+T42235.00    [Q6-8H_A5C.04.01]                              Survey Year: 2014
+  PRIMARY VARIABLE
+
+ 
+             R ASSIGNED MORE THAN ONE CLIENT AT A TIME FOR DLI JOB #04 (JOB TYPE
+             LOOP 01)
+ 
+[are/were]([dli loop 1]) you assigned to more than one customer at a time?
+ 
+       1       1 YES   (Go To T42319.00)
+       3       0 NO
+  -------
+       4
+ 
+Refusal(-1)            0
+Don't Know(-2)         0
+TOTAL =========>       4   VALID SKIP(-4)    7066     NON-INTERVIEW(-5)    5616
+ 
+Min:              0        Max:              1        Mean:                 .25
+ 
+Lead In: T42226.00[1:1]
+Default Next Question: T42241.00
